@@ -1,0 +1,41 @@
+:root {
+  --grey: #bbb;
+  --header: #ececfa;
+}
+
+/* general styling */
+hr {
+  color: var(--grey);
+}
+
+
+/* heading */
+
+.heading__default {
+  padding: .75rem 0;
+  background-color: var(--header);
+}
+
+.subheading__default {
+  padding: .5rem;
+  font-size: 1rem;
+}
+
+
+/* text styling */
+.text--centered {
+  text-align: center;
+  display: block;
+}
+
+.text--bold {
+  font-weight: bold;
+}
+
+.text--capitalize {
+  text-transform: capitalize;
+}
+
+.element--no-border-radius {
+  border-radius: 0;
+}
